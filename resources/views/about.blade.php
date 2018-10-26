@@ -8,11 +8,6 @@
                 <div class="card-header">About</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
                     This is my About Page.
                 </div>
             </div>
