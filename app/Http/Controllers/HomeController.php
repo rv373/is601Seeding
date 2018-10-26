@@ -41,4 +41,12 @@ class HomeController extends Controller
         $posts = $user->posts;
         return view('profile', ['posts' => $posts]);
     }
+    public function about()
+    {
+        return view('about');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
 }
